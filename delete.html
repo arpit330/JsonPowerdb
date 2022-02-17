@@ -54,7 +54,7 @@
             if (jsonStr === "") {
                 return;
             }
-            var reqString = createGET_BY_KEYRequest("90938383|-31948828444641718|90947496", "Employee", "newdb",jsonStr,true,true);
+            var reqString = createGET_BY_KEYRequest("", "Employee", "newdb",jsonStr,true,true);
             alert(reqString); 
             jQuery.ajaxSetup({async: false}); 
             var BaseUrl = "http://api.login2explore.com:5577";
@@ -65,7 +65,7 @@
             alert(result);
             var no=Data.rec_no;
             alert(no);
-            var ReqString=createREMOVERecordRequest("90938383|-31948828444641718|90947496", "Employee", "newdb",no);
+            var ReqString=createREMOVERecordRequest("", "Employee", "newdb",no);
             var Result = executeCommandAtGivenBaseUrl(ReqString, BaseUrl, "/api/iml");
             alert(Result);
             resetForm();
