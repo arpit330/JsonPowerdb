@@ -16,4 +16,29 @@
 - Nimble, Simple to use, In Memory, Real-time DBMS.
 
 ## Illustrations
+### Home page
+<img src="img/home.png">
 
+### create task
+<img src="img/create.png">
+
+### result
+<img src="img/create_res.png">
+
+### read 
+<img src="img/search.png">
+
+### result
+<img src="img/search_res.png">
+
+### delete task
+<img src="img/delete.png">
+
+### result
+<img src="img/delete_res.png">
+
+## Project status 
+### 80% complete , update task is still to be added .
+
+## Sources
+### (documentation)[https://login2explore.com/jpdb/docs.html]
