@@ -54,7 +54,7 @@
             if (jsonStr === "") {
                 return;
             }
-            var reqString = createGET_BY_KEYRequest("90938383|-31948828444641718|90947496", "Employee", "newdb",jsonStr,true,true);
+            var reqString = createGET_BY_KEYRequest("", "Employee", "newdb",jsonStr,true,true);
             alert(reqString); 
             jQuery.ajaxSetup({async: false}); 
             var BaseUrl = "http://api.login2explore.com:5577";
@@ -62,7 +62,7 @@
             var result = executeCommandAtGivenBaseUrl(reqString, BaseUrl, apiEndPointUrl);
             console.log(result);
             alert(result.data);
-            // createGET_BY_KEYRequest("90938383|-31948828444641718|90947496",)
+            // createGET_BY_KEYRequest("",)
 
             resetForm();
         }
