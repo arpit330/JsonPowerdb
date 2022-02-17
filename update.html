@@ -47,7 +47,7 @@
             if (jsonStr === "") {
                 return;
             }
-            var reqString = createGETALLRecordRequest("90938383|-31948828444641718|90947496", "Employee", "newdb",1,100,true,true);
+            var reqString = createGETALLRecordRequest("", "Employee", "newdb",1,100,true,true);
             // alert(reqString); 
             jQuery.ajaxSetup({async: false}); 
             var BaseUrl = "http://api.login2explore.com:5577";
@@ -60,7 +60,7 @@
 
             // alert(result);
             createUPDATERecordRequest
-            createGET_BY_KEYRequest("90938383|-31948828444641718|90947496",)
+            createGET_BY_KEYRequest("",)
         }
     </script>
 
